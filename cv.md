@@ -55,3 +55,7 @@ I don't have any development experience right now
 ## English
 
 **A2** (I can understand and read text of any complexity, but my speaking and writing skills are significantly lower. Experience of using English only in everyday online communication with native speakers)
+
+## Projects 
+
+- [Rsshool-CV](https://github.com/SagaMS/rsschool-cv)
