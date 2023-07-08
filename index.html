@@ -3,8 +3,142 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="style.css" >
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-list-el left"><a href="#name">Home</a></li>
+
+            <li class="nav-list-el right"><a href="#contacts">Contacts</a></li>
+            <li class="nav-list-el right"><a href="#aboutme">About Me</a></li>
+            <li class="nav-list-el right"><a href="#skills">Skills</a></li>
+            <li class="nav-list-el right"><a href="#code">Code</a></li>
+            <li class="nav-list-el right">
+              <a href="#experience">Experience</a>
+            </li>
+            <li class="nav-list-el right">
+              <a href="#education">Education</a>
+            </li>
+            <li class="nav-list-el right"><a href="#english">English</a></li>
+            <li class="nav-list-el right"><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="name">
+          <h1>Irina Mezentseva</h1>
+          <img class="avatar" src="/assets/img/avatar.jpg" alt="avatar_img" />
+        </section>
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>Location: Novokuznetsk, Russia</li>
+            <li>Phone: +7 983 217 7946</li>
+            <li>Email: 91miablond@gmail.com</li>
+            <li>GitHub: SagaMS</li>
+          </ul>
+        </section>
+
+        <section id="aboutme">
+          <h2>About me</h2>
+          <p>
+            I am a begginer developer, most of all I am interested in the field
+            of full stack development, I hope to gain teamwork experience, and
+            improve my skills.
+          </p>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>JavaScript (Basic)</li>
+            <li>Python (Basic)</li>
+            <li>Java (Basic)</li>
+            <li>HTML & CSS</li>
+          </ul>
+        </section>
+
+        <section id="code">
+          <h2>Code Example</h2>
+          <pre>
+          <code>
+           
+          def solution(number):
+          num=range(number)
+          a=[]
+          for i in num:
+              if i %3==0 or i%5==0:
+                  a.append(i)
+          return int(sum(a))
+        
+            
+          </code>
+        </pre>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <p>I don't have any development experience yet</p>
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+
+          <ul>
+            <li>
+              <a href="https://www.udemy.com/course/complete-python-bootcamp/"
+                >Udemy.com - The Complete Python Bootcamp From Zero to Hero in
+                Python (in progress)</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://www.udemy.com/course/java-the-complete-java-developer-course/"
+                >Udemy.com - Java Programming Masterclass updated to Java 17 (in
+                progress)</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="english">
+          <h2>English</h2>
+          <p>
+            <span> A2</span> (I can understand and read text of any complexity,
+            but my speaking and writing skills are significantly lower.
+            Experience of using English only in everyday online communication
+            with native speakers)
+          </p>
+        </section>
+
+        <section class="lastsection" id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/SagaMS/rsschool-cv">Rsshool-CV</a>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p></p>
+        <a class="right" href="https://rs.school/js/"
+          ><img class="logo" src="/assets/img/logo.svg" alt="rsschool_logo"
+        /></a>
+        <a href=""></a>
+        <a href="https://github.com/SagaMS"
+          ><img
+            class="logo"
+            src="/assets/img/gitlogoblack.png"
+            alt="gitlogolink"
+        /></a>
+        <p class="copy">&copy; July 2023</p>
+      </footer>
+    </div>
+  </body>
 </html>
