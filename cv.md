@@ -9,7 +9,7 @@ Irina Mezentseva
 
 ## Skills and Proficiency:
 
-## ode example:
+## Code example:
 
 ## Courses:
 
