@@ -10,7 +10,7 @@
 
 ## Briefly About Myself:
 
-    I want to be a developer. 
+    I am a Beginner developer. I am currently studying JavaScript and HTML&CSS. And also Python.
 
 ---
 
@@ -24,11 +24,7 @@
 
 ## Code example:
 
-Kata from CODEWARS: Pete likes to bake some cakes. He has some recipes and ingredients.
-Unfortunately he is not good in maths. Can you help him to find out, how many cakes he could bake considering his recipes?
-
-Write a function cakes(), which takes the recipe (object) and the available ingredients (also an object) and returns the maximum number of cakes Pete can bake (integer).
-For simplicity there are no units for the amounts (e.g. 1 lb of flour or 200 g of sugar are simply 1 or 200). Ingredients that are not present in the objects, can be considered as 0.
+Kata from CODEWARS: The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
 
 **JS code:**
 
